@@ -1,0 +1,136 @@
+@import url(../../main.global.scss);
+
+.settings {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+
+  &__left {
+    height: 100vh;
+    width: 64px;
+    background: #FBFBFB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__back {
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background-color: #3369F3;
+    background-image: url(../../assets/images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__container {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__hover {
+    height: 100%;
+    border-radius: 130px;
+    color: #FFFFFF;
+    background: #000000;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s ease;
+  }
+
+  &__avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    background: #EFEFEF;
+    background-image: url(../../assets/images/avatar.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+    &:hover .settings__hover {
+      opacity: 0.5;
+    }
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #1E1E1E;
+    margin: 21px 0 60px;
+  }
+
+  &__row {
+    width: 100%;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EAEAEA;
+
+  }
+
+  &__label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #1E1E1E;
+  }
+
+  &__input {
+    width: 50%;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    height: 15px;
+    color: #999999;
+    border: none;
+    text-align: right;
+    padding: 0;
+    outline: none;
+  }
+
+  &__controlls {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  &__line {
+    width: 100%;
+    border-bottom: 1px solid #EAEAEA;
+
+    &:nth-last-child(1) {
+      border: none;
+    }
+  }
+
+  &__button {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #3369F3;
+    border: none;
+    background-color: transparent;
+    margin: 10px 0 10px;
+    cursor: pointer;
+    padding: 0;
+
+    &_red {
+      color: #FF0000;
+    }
+  }
+}
