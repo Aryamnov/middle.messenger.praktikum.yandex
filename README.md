@@ -6,13 +6,13 @@
 
 # Ссылки на страницы:
 
-- [Список страниц](https://deploy-preview-5--chic-lollipop-76c0c0.netlify.app/)
-- [Авторизация](https://deploy-preview-5--chic-lollipop-76c0c0.netlify.app/login)
-- [Регистрация](https://deploy-preview-5--chic-lollipop-76c0c0.netlify.app/signin)
-- [Список чатов](https://deploy-preview-5--chic-lollipop-76c0c0.netlify.app/chats)
-- [Профиль](https://deploy-preview-5--chic-lollipop-76c0c0.netlify.app/settings)
-- [Страница 404](https://deploy-preview-5--chic-lollipop-76c0c0.netlify.app/404)
-- [Страница 5**](https://deploy-preview-5--chic-lollipop-76c0c0.netlify.app/error)
+- [Список страниц](https://deploy-preview-6--chic-lollipop-76c0c0.netlify.app/)
+- [Авторизация](https://deploy-preview-6--chic-lollipop-76c0c0.netlify.app/login)
+- [Регистрация](https://deploy-preview-6--chic-lollipop-76c0c0.netlify.app/signin)
+- [Список чатов](https://deploy-preview-6--chic-lollipop-76c0c0.netlify.app/chats)
+- [Профиль](https://deploy-preview-6--chic-lollipop-76c0c0.netlify.app/settings)
+- [Страница 404](https://deploy-preview-6--chic-lollipop-76c0c0.netlify.app/404)
+- [Страница 5**](https://deploy-preview-6--chic-lollipop-76c0c0.netlify.app/error)
 
 ## Установка
 
