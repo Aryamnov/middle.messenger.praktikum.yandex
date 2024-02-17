@@ -1,36 +1,40 @@
-<div class="signin">
-    <div class="signin__container">
-        <h1 class="signin__title">Регистрация</h1>
-        <div class="signin__element">
-            <span class="signin__label">Почта</span>
-            <input value="pochta@yandex.ru" class="signin__input" name="email"/>
+<main>
+    <div class="signin">
+        <div class="signin__container">
+            <h1 class="signin__title">Регистрация</h1>
+            <form>
+                <div class="signin__element">
+                    <span class="signin__label">Почта</span>
+                    <input value="pochta@yandex.ru" class="signin__input" name="email"/>
+                </div>
+                <div class="signin__element">
+                    <span class="signin__label">Логин</span>
+                    <input value="ivanivanov" class="signin__input" name="login"/>
+                </div>
+                <div class="signin__element">
+                    <span class="signin__label">Имя</span>
+                    <input value="Иван" class="signin__input" name="first_name"/>
+                </div>
+                <div class="signin__element">
+                    <span class="signin__label">Фамилия</span>
+                    <input value="Иванов" class="signin__input" name="second_name"/>
+                </div>
+                <div class="signin__element">
+                    <span class="signin__label">Телефон</span>
+                    <input value="+7 (909) 967 30 30" class="signin__input" type="tel" name="phone"/>
+                </div>
+                <div class="signin__element">
+                    <span class="signin__label">Пароль</span>
+                    <input value="password" class="signin__input signin__input_error" type="password" name="password"/>
+                </div>
+                <div class="signin__element">
+                    <span class="signin__label">Пароль (ещё раз)</span>
+                    <input value="password" class="signin__input signin__input_error" type="password" />
+                    <span class="signin__error signin__error_vision">Пароли не совпадают</span>
+                </div>
+                <button class="signin__submit">Зарегистрироваться</button>
+            </form>
+            <a href="/login" class="signin__link">Войти</a>
         </div>
-        <div class="signin__element">
-            <span class="signin__label">Логин</span>
-            <input value="ivanivanov" class="signin__input" name="login"/>
-        </div>
-        <div class="signin__element">
-            <span class="signin__label">Имя</span>
-            <input value="Иван" class="signin__input" name="first_name"/>
-        </div>
-        <div class="signin__element">
-            <span class="signin__label">Фамилия</span>
-            <input value="Иванов" class="signin__input" name="second_name"/>
-        </div>
-        <div class="signin__element">
-            <span class="signin__label">Телефон</span>
-            <input value="+7 (909) 967 30 30" class="signin__input" type="tel" name="phone"/>
-        </div>
-        <div class="signin__element">
-            <span class="signin__label">Пароль</span>
-            <input value="password" class="signin__input signin__input_error" type="password" name="password"/>
-        </div>
-        <div class="signin__element">
-            <span class="signin__label">Пароль (ещё раз)</span>
-            <input value="password" class="signin__input signin__input_error" type="password" />
-            <span class="signin__error signin__error_vision">Пароли не совпадают</span>
-        </div>
-        <button class="signin__submit">Зарегистрироваться</button>
-        <a href="/login" class="signin__link">Войти</a>
     </div>
-</div>
+</main>
