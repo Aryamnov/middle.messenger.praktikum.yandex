@@ -1,0 +1,169 @@
+@import url(../../main.global.scss);
+
+.chats {
+  display: flex;
+  height: 100vh;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+
+  &__menu {
+    width: 310px;
+    height: 100%;
+    background: #FBFBFB;
+  }
+
+  &__header {
+    width: 290px;
+    margin: 0 auto;
+    height: 103px;
+    border-bottom: 1px solid #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  &__link {
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+    text-decoration: none;
+    margin: 21px 0 23px;
+    display: flex;
+  }
+
+  &__arrow {
+    width: 8px;
+    height: 12px;
+    background-image: url(../../assets/images/arrow_link.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 8px;
+  }
+
+  &__search {
+    width: 290px;
+    height: 32px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 6px 15px 6px;
+
+    &::placeholder {
+      text-align: center;
+      background-image: url(../../assets/images/search.svg);
+      background-repeat: no-repeat;
+      background-position: 85px 0;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: calc(100vh - 103px);
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__member {
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    margin: 12px auto 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #EAEAEA;
+  }
+
+  &__info {
+    display: flex;
+  }
+
+  &__avatar {
+    width: 47px;
+    height: 47px;
+    border-radius: 47px;
+    background: #EFEFEF;
+  }
+
+  &__short {
+    margin-left: 10px;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    color: #1E1E1E;
+    margin: 0 0 4px;
+  }
+
+  &__last {
+    font-size: 12px;
+    line-height: 15px;
+    color: #999999;
+    margin: 0;
+    max-width: 193px;
+    max-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -moz-line-clamp: 2;
+    line-clamp: 2;
+  }
+
+  &__self {
+    color: #1E1E1E;
+    margin-right: 4px;
+  }
+
+  &__date {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  &__day {
+    font-size: 9px;
+    line-height: 13px;
+    text-align: right;
+    color: #999999;
+    margin: 0;
+    margin: 0;
+  }
+
+  &__badge {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 11px;
+    line-height: 12px;
+    color: #FFFFFF;
+    background-color: #3369F3;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__empty {
+    width: calc(100% - 310px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
