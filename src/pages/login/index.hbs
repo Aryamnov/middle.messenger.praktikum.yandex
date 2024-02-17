@@ -1,15 +1,19 @@
-<div class="login">
-    <div class="login__container">
-        <h1 class="login__title">Вход</h1>
-        <div class="login__element">
-            <span class="login__label">Логин</span>
-            <input value="ivanivanov" class="login__input" name="login"/>
+<main>
+    <div class="login">
+        <div class="login__container">
+            <h1 class="login__title">Вход</h1>
+            <form>
+                <div class="login__element">
+                    <span class="login__label">Логин</span>
+                    <input value="ivanivanov" class="login__input" name="login"/>
+                </div>
+                <div class="login__element">
+                    <span class="login__label">Пароль</span>
+                    <input value="password" class="login__input" type="password" name="password"/>
+                </div>
+                <button class="login__submit">Авторизироваться</button>
+            </form>
+            <a href="/signin" class="login__link">Нет аккаунта?</a>
         </div>
-        <div class="login__element">
-            <span class="login__label">Пароль</span>
-            <input value="password" class="login__input" type="password" name="password"/>
-        </div>
-        <button class="login__submit">Авторизироваться</button>
-        <a href="/signin" class="login__link">Нет аккаунта?</a>
     </div>
-</div>
+</main>
