@@ -12,7 +12,7 @@ export default defineConfig({
       handlebars(),
       copy({
         targets: [
-          { src: './src/server/server.js', dest: './dist' }
+          { src: './src/server/server.ts', dest: './dist' }
         ]
       })
   ],
